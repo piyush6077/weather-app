@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,200;1,100;1,200&family=Lobster&family=Mukta:wght@300;400&family=Noto+Sans+JP:wght@100;300&family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif:ital@1&family=Oswald:wght@300&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,400;1,100&display=swapfamily=IBM+Plex+Sans+Arabic:wght@400;500&family=Outfit:wght@500&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&display=swap&family=Titillium+Web:wght@600&display=swap" " rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <div class="card">
+            <div class="searchBox">
+                <input type="search" placeholder="Enter the city name" spellcheck="false" class="search">
+                <button><img src="images/search.png" class="searchImg" ></button>
+            </div>  
+            <div class="flex">
+                <img src="images/rain.png" class="weatherImg">
+                <div class="text">
+                    <p class="temperature" id="temperature">22°C</p>
+                    <p class="cityName">New York</p>
+                </div>
+            </div>
+
+
+            <div class="lastcontainer">
+                <div class="humidity flexr">
+                    <img src="images/humidity.png" class="images1">
+                    <div style="display: flex;flex-direction: column;justify-content: center;">
+                    <p class="textcolor hum m-0 "></p>
+                    <p class="textcolor m-0 ">Humidity</p>
+                    </div>
+                </div>
+                <div class="wind flexr">
+                    <img src="images/wind.png" class="images1">
+                    <div style="display: flex;flex-direction:column;justify-content: center;">
+                    <p class="textcolor m-0 windunit"></p>
+                    <p class="textcolor m-0  ">wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="brain.js"></script>
+</body>
+</html>
